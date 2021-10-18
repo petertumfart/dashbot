@@ -31,7 +31,7 @@ if submit_button:
             st.write('Seas Bisi!')
             st.image('img/bisi.jpg')
             st.balloons()
-        elif mail == logon_data.mail_data[2]:
+        elif mail == logon_data.mail_data[3]:
             st.write('Seas Hannes!')
             st.image('img/hannes.jpeg')
             st.balloons()
