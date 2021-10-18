@@ -31,6 +31,10 @@ if submit_button:
             st.write('Seas Bisi!')
             st.image('img/bisi.jpg')
             st.balloons()
+        elif mail == logon_data.mail_data[2]:
+            st.write('Seas Hannes!')
+            st.image('img/hannes.jpeg')
+            st.balloons()
     else:
         st.error('Ups, didn\'t recognize you..')
 
