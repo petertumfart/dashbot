@@ -9,7 +9,7 @@ st.title('Dashbot')
 
 form_container = st.empty()
 with form_container.form(key='my_form'):
-    mail = st.text_input(label='Enter your email:')
+    mail = st.text_input(label='Enter your email:', value='@geilertyp.at')
     pwd = st.text_input(label='Enter you password:', type="password")
     submit_button = st.form_submit_button(label='Submit')
 
